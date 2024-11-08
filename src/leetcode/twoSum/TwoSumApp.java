@@ -12,6 +12,8 @@ public class TwoSumApp {
             }
         }
         return null;
+
+        //hashmap
     }
 
     public static void main(String[] args) {
