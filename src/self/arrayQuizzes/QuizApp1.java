@@ -15,7 +15,7 @@ public class QuizApp1 {
         char lastCharacter = number.charAt(number.length() - 1);
         System.out.println("the last character is " + lastCharacter);
 
-        // -------- task 2: write a logic insert a word and check if the last character is a vowel --------
+
 
 
     }
