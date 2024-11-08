@@ -16,7 +16,5 @@ public class QuizApp1 {
         System.out.println("the last character is " + lastCharacter);
 
 
-
-
     }
 }
