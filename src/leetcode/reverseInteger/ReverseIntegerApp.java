@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ReverseIntegerApp {
     public static int reverse(int x) { //input:123 example
-        int rev = 0;
+        int rev = 0; //0
         while (x != 0) { //p1 x:123 p2 x:12 p3 x:1 p3 x:0 (false)
             int pop = x % 10; // p1 pop:3 p2 pop:2 p3 pop:1
             x /= 10; // p1 x:12 p2 x:1 p3 x:0
