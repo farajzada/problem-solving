@@ -3,7 +3,7 @@ package leetcode.fibonacciNumbers;
 import java.util.Scanner;
 
 public class FibonacciNumbersApp {
-    public static int fib(int N) {
+    public static int fib(int N) { // ++
         if (N == 0) {
             return 0;
         }
