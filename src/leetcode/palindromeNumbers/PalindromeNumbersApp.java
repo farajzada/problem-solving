@@ -12,7 +12,7 @@ public class PalindromeNumbersApp {
         int reversed = 0;
         int originalNum = x;
 
-        while (x != 0) {
+        while (x != 0) { // (true)
             reversed = reversed * 10 + x % 10; // x = 121,12,1 reversed = 1,12,121
             x = x / 10;
         }
