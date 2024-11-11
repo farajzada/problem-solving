@@ -8,7 +8,6 @@ public class ConcatenationOfArray {
         int a = nums.length; //verdiyimiz arrayin uzunlugu
         int[] result = new int[2 * a]; //yeni yaradacagimiz arrayi 2*a olcusunde yaradirig
 
-
         for (int i = 0; i < a; i++) {
             result[i] = nums[i];
             //ilk elementi arraye elave edirik
