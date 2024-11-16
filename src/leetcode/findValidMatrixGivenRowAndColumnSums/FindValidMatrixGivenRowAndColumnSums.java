@@ -1,7 +1,7 @@
 package leetcode.findValidMatrixGivenRowAndColumnSums;
 
 public class FindValidMatrixGivenRowAndColumnSums {
-    public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
+    public static int[][] restoreMatrix(int[] rowSum, int[] colSum) {
         int m = rowSum.length;
         int n = colSum.length;
         int[][] matrix = new int[m][n];
@@ -24,5 +24,22 @@ public class FindValidMatrixGivenRowAndColumnSums {
         }
 
         return matrix;
+    }
+
+    public static void printMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            for (int value : row) {
+                System.out.print(value + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] rowSum = {6, 12};
+        int[] colSum = {8, 9};
+        int[][] result = restoreMatrix(rowSum, colSum);
+        System.out.println("cavab budur:");
+        printMatrix(result);
     }
 }
