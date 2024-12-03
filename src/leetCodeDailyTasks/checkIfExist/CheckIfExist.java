@@ -1,4 +1,4 @@
-package leetcode.checkIfExist;
+package leetCodeDailyTasks.checkIfExist;
 
 import java.util.Arrays;
 
