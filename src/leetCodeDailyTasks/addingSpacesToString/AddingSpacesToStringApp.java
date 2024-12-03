@@ -1,4 +1,4 @@
-package leetCodeDailyTasks.AddingSpacesToString;
+package leetCodeDailyTasks.addingSpacesToString;
 
 import java.util.Scanner;
 
