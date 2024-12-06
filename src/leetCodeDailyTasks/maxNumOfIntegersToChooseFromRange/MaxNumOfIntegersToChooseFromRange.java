@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class MaxNumOfIntegersToChooseFromRange {
     public int maxCount(int[] banned, int n, int maxSum) {
         boolean[] isBanned = new boolean[10001];
-        for(int b : banned) {
-            if(b <= n) {
+        for (int b : banned) {
+            if (b <= n) {
                 isBanned[b] = true;
             }
         }
@@ -14,10 +14,8 @@ public class MaxNumOfIntegersToChooseFromRange {
         int count = 0;
         int sum = 0;
 
-        // Check each number from 1 to n
-        for(int i = 1; i <= n; i++) {
-            // If number is not banned and sum won't exceed maxSum
-            if(!isBanned[i] && sum + i <= maxSum) {
+        for (int i = 1; i <= n; i++) {
+            if (!isBanned[i] && sum + i <= maxSum) {
                 sum += i;
                 count++;
             }
