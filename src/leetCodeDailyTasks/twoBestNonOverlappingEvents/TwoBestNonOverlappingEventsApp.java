@@ -40,6 +40,7 @@ public class TwoBestNonOverlappingEventsApp {
                 }
             }
 
+
             // If a valid next event is found, update the max sum
             if (nextEventIndex != -1) {
                 maxSum = Math.max(maxSum, events[i][2] + suffixMax[nextEventIndex]);
