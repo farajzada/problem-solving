@@ -16,5 +16,6 @@ public class ExcellSheetColumnNumber {
         System.out.println(excellSheetColumnNumber.titleToNumber("ZY"));
         System.out.println(excellSheetColumnNumber.titleToNumber("FXSHRXW"));
 
+
     }
 }
