@@ -17,5 +17,6 @@ public class RemoveElement {
         int val = 2;
         RemoveElement removeElement = new RemoveElement();
         System.out.println(removeElement.removeElement(nums, val));
+
     }
 }
